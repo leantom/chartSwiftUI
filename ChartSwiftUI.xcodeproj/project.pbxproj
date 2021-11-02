@@ -14,6 +14,7 @@
 		740F686127258B520008AEF8 /* ChartSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F686027258B520008AEF8 /* ChartSwiftUITests.swift */; };
 		740F686B27258B520008AEF8 /* ChartSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F686A27258B520008AEF8 /* ChartSwiftUIUITests.swift */; };
 		740F686D27258B520008AEF8 /* ChartSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F686C27258B520008AEF8 /* ChartSwiftUIUITestsLaunchTests.swift */; };
+		748301882731269C006CD47F /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748301872731269C006CD47F /* ActivityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		740F686627258B520008AEF8 /* ChartSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		740F686A27258B520008AEF8 /* ChartSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartSwiftUIUITests.swift; sourceTree = "<group>"; };
 		740F686C27258B520008AEF8 /* ChartSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		748301872731269C006CD47F /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				740F684F27258B4F0008AEF8 /* ChartSwiftUIApp.swift */,
 				740F685127258B4F0008AEF8 /* ContentView.swift */,
+				748301872731269C006CD47F /* ActivityView.swift */,
 				740F685327258B510008AEF8 /* Assets.xcassets */,
 				740F685527258B510008AEF8 /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				740F685227258B4F0008AEF8 /* ContentView.swift in Sources */,
 				740F685027258B4F0008AEF8 /* ChartSwiftUIApp.swift in Sources */,
+				748301882731269C006CD47F /* ActivityView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +431,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,7 +441,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -457,7 +461,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,7 +471,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
